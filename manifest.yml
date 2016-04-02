@@ -1,0 +1,8 @@
+---
+applications:
+- name: pcf-db-demo
+  memory: 512M
+  instances: 1
+  path: target/pcf-db-demo-0.0.1-SNAPSHOT.jar
+  services:
+  - my-database
